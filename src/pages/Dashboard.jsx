@@ -5,6 +5,7 @@ import TaskForm from '../components/TaskForm';
 import FilterBar from '../components/FilterBar';
 import SearchBar from '../components/SearchBar';
 import TaskList from '../components/TaskList';
+import Footer from '../components/Footer';
 import { useLocalStorage } from '../hooks/useLocalStorage';
 
 // Empty tasks for initial state
@@ -90,6 +91,8 @@ export default function Dashboard() {
           onEdit={handleEditTask}
         />
       </main>
+      
+      <Footer />
     </div>
   );
 }
