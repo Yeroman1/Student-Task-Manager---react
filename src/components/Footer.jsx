@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div className="flex flex-col items-center md:items-start text-sm text-slate-600 dark:text-slate-400">
             <p className="flex items-center gap-1.5 font-medium text-slate-900 dark:text-white">
-              © {new Date().getFullYear()} Task Manager.
+              © {new Date().getFullYear()}
             </p>
             <p className="mt-1">
               Designed & Developed by <span className="font-semibold text-primary-600 dark:text-primary-400">Yeroman Diriba</span>
